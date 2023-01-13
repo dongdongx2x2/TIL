@@ -1,11 +1,3 @@
-# Github Intro
+# TIL
 
-## Readme 생성
-
-- git 초기화
-
-- git repo 생성
-
-
-
-## 새로운 수정 사항
+## 하루동안 배운 것을 저장하는 장소~~
