@@ -1,6 +1,6 @@
 # CS 스터디 - day01_230125
 
-## 운영체제(Operatin systems, OS)
+## 운영체제(Operating systems, OS)
 
 ### Introduction to Operatin systems
 
@@ -74,35 +74,35 @@
          
          - ex) 영화
 
-3.   운영 체제의 예
+3. 운영 체제의 예
    
    - 유닉스(UNIX)
+   
+   - 코드의 대부분 C언어로 작성
+   
+   - 높은 이식성
+   
+   - 최소한의 커널 구조
+   
+   - 복잡한 시스템에 맞게 확장 용이
+   
+   - 소스 코드 공개
+   
+   - 프로그램 개발에 용이
+   
+   - 다양한 버전
      
-     - 코드의 대부분 C언어로 작성
+     - System V, FreeBSD, SunOS, Solaris
      
-     - 높은 이식성
-     
-     - 최소한의 커널 구조
-     
-     - 복잡한 시스템에 맞게 확장 용이
-     
-     - 소스 코드 공개
-     
-     - 프로그램 개발에 용이
-     
-     - 다양한 버전
-       
-       - System V, FreeBSD, SunOS, Solaris
-       
-       - Linux
+     - Linux
    
    - MS Windows
-     
-     - MS사의 다중 작업용 GUI 기반 운영 체제
-     
-     - 풍부한 지원 소프트웨어
+   
+   - MS사의 다중 작업용 GUI 기반 운영 체제
+   
+   - 풍부한 지원 소프트웨어
 
-4.  운영 체제의 구조
+4. 운영 체제의 구조
    
    - CPU
      
@@ -119,9 +119,5 @@
    - I/O device
      
      - 입출력관리 
-
-        
-
-
-
-
+       
+               
