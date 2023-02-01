@@ -1,10 +1,11 @@
-# CS 스터디 - day02_230126
+# CS 스터디 - day03_230130
 
 ## 운영체제(Operating systems, OS)
 
 ### Process
 
-1.  프로세스의 개념  
+1. 프로세스의 개념  
+   
    - 프로세스란 현재 실행되고 있는 프로그램
    
    - 프로세스의 문맥(context)
@@ -24,7 +25,9 @@
        - PCB(Process Control Block)
        
        - Kernel stack
-2.  프로세스의 상태 (Process state)
+
+2. 프로세스의 상태 (Process state)
+   
    - 프로세스는 상태(state)가 변경되며 수행된다.
      
      - <mark>Running</mark>
@@ -66,7 +69,9 @@
      - New: 프로세스가 생성중인 상태
      
      - Terminated: 수행(execution)이 끝난 상태
-3.  Process Control Block (PCB)
+
+3. Process Control Block (PCB)
+   
    - 운영체제가 각 프로세스를 관리하기 위해 프로세스당 유지하는 정보
    
    - 다음의 구성 요소를 가짐
@@ -88,7 +93,9 @@
      - 파일 관련
        
        - Open file descriptors...
-4.  문맥 교환(Context Switch)
+
+4. 문맥 교환(Context Switch)
+   
    - CPU를 한 프로세스에서 다른 프로세스로 넘겨주는 과정
    
    - CPU가 다른 프로세스에게 넘어갈 때 운영체제는 다음을 수행
@@ -104,7 +111,9 @@
      - <img src="OS_d3_Process_230130_assets/2023-01-30-21-33-35-image.png" title="" alt="" width="332">
        
        - (1)의 경우에도 CPU 수행 정보 등 context의 일부를 PCB에 save해야 하지만 문맥교환을 하는 (2)의 경우 그 부담이 훨씬 큼
-5.  스케줄러(Scheduler)
+
+5. 스케줄러(Scheduler)
+   
    - Long-term scheduler(장기 스케줄러 or job scheduler)
      
      - 시작 프로세스 중 어떤 것들을 ready queue로 보낼지 결정
@@ -130,7 +139,9 @@
      - 프로세스에게서 memory를 뺏는 문ㅁ제
      
      - degree of Multiprogramming을 제어 
-6.  Thread
+
+6. Thread
+   
    - Thread는 CPU를 이용하는 단위
    
    - Thread의 구성
@@ -154,7 +165,3 @@
    - 동일한 일을 수행하는 다중 스레드가 협력하여 높은 처리율(throughput)과 성능 향상을 얻을  수 있다.
    
    - 스레드를 사용하면 병렬성을 높일 수 있다.
-   
-    
-
-
