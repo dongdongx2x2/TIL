@@ -4,7 +4,7 @@
 
 ### CPU Scheduling
 
-1.  CPU and I/O Bursts in Program Execution
+1. CPU and I/O Bursts in Program Execution
    
    <img src="OS_d5_CPU_scheduling_230201_assets/2023-02-01-21-12-15-image.png" title="" alt="" width="168">
    
@@ -42,7 +42,7 @@
        
        - few very long CPU bursts.
 
-3.  CPU Scheduler & Dispatcher
+3. CPU Scheduler & Dispatcher
    
    - CPU Scheduler
      
@@ -70,7 +70,7 @@
      
      - 2,3 => preemptive(강제로 뻇음)
 
-4.  Scheduling Criteria ( 성능 척도)
+4. Scheduling Criteria ( 성능 척도)
    
    - 시스템 입장 성능 척도-CPU하나로 최대한 일을 많이 시키면 좋은 것
      
@@ -96,7 +96,7 @@
    
    - convoy effect: 긴 프로세스가 도착해서 짧은 프로세스들이 오래 기다려야 하는 현상
 
-6.  SJF(Shortest-Job-First)
+6. SJF(Shortest-Job-First)
    
    - CPU burst가 제일 짧은 프로그램한테 CPU를 주는 스케줄
    
@@ -116,7 +116,7 @@
      
      - CPU 사용시간을 미리 알 수 없음
 
-7.  Priority Scheduling
+7. Priority Scheduling
    
    - 우선순위가 제일 높은 프로세스에게 CPU를 줌
    
@@ -136,7 +136,7 @@
      
      - 우선순위가 낮아도 오래 기다리면 우선순위를 높여줌
 
-8.  Round Robin(RR)
+8. Round Robin(RR)
    
    - 각 프로세스는 동일한 크기의 할당시간을 가짐
    
@@ -148,7 +148,7 @@
    
    - 일반적으로 SJF보다 average turnaround time이 길지만 response time은 더 짧음
 
-9.  Multilevel Queue
+9. Multilevel Queue
    
    <img src="OS_d5_CPU_scheduling_230201_assets/2023-02-01-22-00-20-image.png" title="" alt="" width="319">
    
@@ -158,7 +158,7 @@
      
      - background(batch -> no human interaction)
    
-   - 각 큐는 독립적인 스케줄링 알고리즙을 가짐
+   - 각 큐는 독립적인 스케줄링 알고리즘을 가짐
      
      - foreground - RR
      
@@ -170,7 +170,7 @@
      
      - Time slice: 각 큐에 CPU time을 적절한 비율로 할당
 
-10.  Mutilevel Feedback Queue
+10. Mutilevel Feedback Queue
     
     <img src="OS_d5_CPU_scheduling_230201_assets/2023-02-01-22-05-32-image.png" title="" alt="" width="322">
     
@@ -190,7 +190,7 @@
       
       - 프로세스가 CPU 서비스를 받으려 할 때 들어갈 큐를 결정하는 기준
 
-11.  Multiple-Processor Scheduling
+11. Multiple-Processor Scheduling
     
     - CPU가 여러 개인 경우 스케줄링은 더욱 복잡해짐
     
@@ -214,7 +214,7 @@
       
       - 하나의 프로세서가 시스템 데이터의 접근과 공유를 책임지고 나머지 프로세서는 거기에 따름
 
-12.  Real Time Scheduling
+12. Real Time Scheduling
     
     - Hard real-time systems
       

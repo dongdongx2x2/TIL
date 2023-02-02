@@ -78,9 +78,9 @@
      
      - OS가 관리상 사용하는 정보
        
-       - Process state, Provess ID
+       - Process state, Process ID
        
-       - schediling information, prioriy
+       - scheduling information, prioriy
      
      - CPU 수행 관련 하드웨어 값
        
@@ -165,3 +165,11 @@
    - 동일한 일을 수행하는 다중 스레드가 협력하여 높은 처리율(throughput)과 성능 향상을 얻을  수 있다.
    
    - 스레드를 사용하면 병렬성을 높일 수 있다.
+   
+   - Thread 장점
+     
+     - 높은 응답성(high responsiveness)
+     
+     - 자원 공유를 통해 자원을 절약할 수 있게 됨
+     
+     - 프로세스 실행 속도 향상을 통해 경제성 향상
