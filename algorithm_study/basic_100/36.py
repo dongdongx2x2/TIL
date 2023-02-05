@@ -1,0 +1,3 @@
+# 단어와 반복 횟수를 입력받아 여러 번 출력
+c, n = input().split()
+print(c * int(n))
