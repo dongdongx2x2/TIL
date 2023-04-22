@@ -1,6 +1,6 @@
 # Network
 
-## Network layer2_d9_230416
+## Network layer2_d10_230416
 
 ### IP datagram format
 
@@ -15,8 +15,6 @@
 - 각각의 IP헤더, TCP 헤더는 20바이트씩 나옴 , TCP/IP 프로토콜은 기본적으로 40바이트의 오버헤드 발생
 
 - ACK 같은 경우 40바이트 씩만 가짐
-
-
 
 ### IP Address
 
@@ -36,15 +34,11 @@
 
 - 255.255.255.0- 255 3개가 네트워크 아이디, 0이 호스트 아이디
 
-
-
 ### Classless Inter-Domain Routing(CIDR)
 
 - 8비트씩 끊어서 prefix 정하면 편차가 너무 커짐
 
 - 자유롭게 prefix를 끊어 사용가능하게함
-
-
 
 ### Subnets
 
@@ -55,8 +49,6 @@
 - 라우터를 거치지않고 접근 가능한 호스트 집합
 
 - 라우터는 여러개의 IP주소를 가지기 때문에 라우터는 하나의 subnet에 포함이아닌 여러 subnet에 걸쳐있음
-
-
 
 ### Network Address Translation(NAT)
 
@@ -77,7 +69,3 @@
   - 서브넷은 항상 같은 IP로 옴
   
   - 해당 포트번호로 정확한 주소 찾아감
-
-
-
-
