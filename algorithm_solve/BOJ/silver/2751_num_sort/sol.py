@@ -1,0 +1,11 @@
+import sys
+sys.stdin = open('2751_input.txt')
+
+input = sys.stdin.readline
+
+N = int(input())
+
+lst = [int(input()) for _  in range(N)]
+lst.sort()
+for i in lst:
+    print(i)
