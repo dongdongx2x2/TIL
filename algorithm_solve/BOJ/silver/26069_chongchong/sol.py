@@ -1,0 +1,18 @@
+import sys
+sys.stdin = open('26069_input.txt')
+
+input = sys.stdin.readline
+
+n = int(input())
+dance = {'ChongChong'}
+
+for i in range(1, n+1):
+    a, b = input().split()
+
+    if a in dance:
+        dance.add(b)
+
+    if b in dance:
+        dance.add(a)
+
+print(len(dance))
